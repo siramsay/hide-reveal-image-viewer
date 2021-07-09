@@ -38,10 +38,20 @@ main {
   align-items: center;
 }
 
-img {
-  position: absolute;
+.outer {
+  width: 1010px;
+  height: 757px;
+  position: relative;
 }
 
-.top-image {
-  width: 50%;
+.image {
+  position: absolute;
 }
+/* top image size check: Used in step 1 on the image
+ * & then width of the container in step 2 */
+.top-image {
+  width: 550px;
+  overflow: hidden;
+}
+
+
