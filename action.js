@@ -4,5 +4,6 @@ topImage.style.width = '75%';
 topImage.addEventListener('mousemove', trackMousePosition );
 
 function trackMousePosition(theEvent) {
-    alert ('the mouse moved');
+    //alert ('the mouse moved');
+    console.log(theEvent.clientX);
 }
